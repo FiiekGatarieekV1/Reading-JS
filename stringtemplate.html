@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const name = "Fikli";
+        const firstname = "Rene";
+        const lastname = "Koo";
+        const template = `name : ${name} ${firstname} ${lastname}`;
+        const lama = "Name: " + name + " " + firstname + " " + lastname;
+
+        console.info(template);
+
+        const nilai = 90;
+        const template2 = `Name : ${name}, lulus : ${nilai > 70}`;
+        console.info(template2);
+
+        const multiline = `Nama Saya Fikli,
+Mancing Game,
+Entering`;
+        document.writeln("<pre>")
+        document.writeln(multiline);
+        document.writeln("</pre>");
+    </script>
+</body>
+</html>

@@ -3,23 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Operator Aritmatika</title>
+    <title>Document</title>
 </head>
 <body>
     <script>
+        //operator augmented assignment tidak usah menggunakan result = result + 10
         let result = 1 + 2; //3
         document.writeln("<p> 1 + 2 = " + result + "</p>");
         let oriResult = result;
 
-        result = result -2; //2 
+        result -= 1; //2 
         document.writeln("<p> " + oriResult + " - 1 = " + result + "</p>");
         oriResult = result;
 
-        result = result * 2; //4
+        result *= 2; //4
         document.writeln("<p> " + oriResult + " * 2 = " + result + "</p>");
         oriResult = result;
 
-        result = result / 2; //2
+        result /= 2; //2
         document.writeln("<p> " + oriResult + " / 2 = " + result + "</p>");
     </script>
 </body>
